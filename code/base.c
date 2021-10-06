@@ -60,7 +60,7 @@
 #endif
 
 #if UINTPTR_MAX != SIZE_MAX
-  #error "bread.h assumes pointer and size_t sizes are equal."
+  #error "base.h assumes pointer and size_t sizes are equal."
 #endif
 
 int8_t   typedef I8;
